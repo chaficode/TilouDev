@@ -1,6 +1,43 @@
-<ion-view title="Profile" id="page6" style="">
+<ion-view title="Profile" id="page-profile" style="">
   <ion-content padding="true" class="has-header">
-    <h1 id="profile-heading1" style="color: rgb(0, 0, 0);">Profile</h1>
+  
+    <h1 id="profile-heading" style="color: rgb(0, 0, 0);">Profile</h1>
+    <hr/>
+    <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
+      <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+    </div>
+        <form id="profile-form" class="list">
+    
+    <ion-list>    
+    
+    <ion-item>
+  <ion-label>Nom Prénom</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+    <ion-item>
+  <ion-label>Region</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+    <ion-item>
+  <ion-label>Identification du référent</ion-label>
+  <ion-input></ion-input>
+</ion-item>
+
+        <hr/>
+    <h2 id="profile-heading2" style="color: rgb(0, 0, 0);">Consentement de recherche</h2>
+	<ion-item>
+      <ion-label>J'ai lu et consens par la présente à participer au programme de recherche.</ion-label>
+      <ion-checkbox checked="true"></ion-checkbox>
+    </ion-item>
+
+    
+    <hr/>
     <button id="profile-button3" class="button button-positive  button-block">Edit</button>
+  </ion-list>
+    </form>
+    
+
   </ion-content>
 </ion-view>

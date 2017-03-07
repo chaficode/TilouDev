@@ -1,16 +1,22 @@
 <ion-view title="Preferences" id="page7" style="">
   <ion-content padding="true" class="has-header">
     <h1 id="preferences-heading6" style="color: rgb(0, 0, 0);">Preferences</h1>
+    <hr/>
+    <h2 id="preferences-heading2" style="color: rgb(0, 0, 0);">Plage horaire des rappels</h2>    
     <form id="preferences-form3" class="list">
-      <label class="item item-select" id="preferences-select1">
-        <span class="input-label">Select</span>
-        <select></select>
-      </label>
+       <ion-item>
+      <ion-label>Entre:</ion-label>
+      <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+    </ion-item>
+      
+      
       <label class="item item-select" id="preferences-select2">
-        <span class="input-label">Select</span>
+        <span class="input-label">et</span>
         <select></select>
       </label>
     </form>
+    
+    <p>Veuillez insérer une photo de enfant x</p>
     <button id="preferences-button10" class="button button-positive  button-block">Browse</button>
     <button id="preferences-button11" class="button button-positive  button-block">Confirm</button>
   </ion-content>

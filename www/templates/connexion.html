@@ -1,32 +1,23 @@
-<ion-view title="connexion" id="page4">
+<ion-view title="Connexion" id="page-connexion">
   <ion-content padding="true" class="has-header">
-    <form id="connexion-form2" class="list">
-      <ion-list id="connexion-list2">
-        <label class="item item-input" id="connexion-input4">
-          <span class="input-label">Username</span>
+  
+    <form id="connexion-form" class="list">
+      <ion-list id="connexion-list">
+        <label class="item item-input" id="connexion-input-user">
+          <span class="input-label">Utilisateur:</span>
           <input type="text" placeholder="">
         </label>
-        <label class="item item-input" id="connexion-input5">
-          <span class="input-label">Password</span>
+        <label class="item item-input" id="connexion-input-password">
+          <span class="input-label">Mot de passe:</span>
           <input type="password" placeholder="">
         </label>
+        <p>Vous avez oublié votre mot de passe?</p>
+        <p><a href-inappbrowser="/signup" id="connexion-recover-password">cliquez ici</a></p>
       </ion-list>
-      <div class="spacer" style="height: 40px;"></div>
-      <button id="connexion-button2" class="button button-stable  button-block">Log in</button>
-      <a href-inappbrowser="/signup" id="connexion-button3" class="button button-positive  button-block button-clear">Or create an account</a>
-      <label class="item item-input" id="connexion-input6">
-        <span class="input-label">Name</span>
-        <input type="text" placeholder="">
-      </label>
-      <label class="item item-input" id="connexion-input7">
-        <span class="input-label">Username</span>
-        <input type="text" placeholder="">
-      </label>
-      <label class="item item-input" id="connexion-input8">
-        <span class="input-label">Password</span>
-        <input type="text" placeholder="">
-      </label>
+      <button id="connexion-button-connect" class="button button-stable  button-block">Se connecter</button>
     </form>
-    <button id="connexion-button4" class="button button-stable  button-block">Sign up</button>
+  	<hr/>    
+     <p>ou si vous êtes un nouvel utilisateur,</p>  	
+    <a ui-sref="tabsController.inscription" id="connexion-button-new" class="button button-stable  button-block">S'inscrire</a>     
   </ion-content>
 </ion-view>

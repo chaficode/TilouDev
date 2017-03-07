@@ -1,3 +1,55 @@
 <ion-view title="Personal information" id="page8" style="">
-  <ion-content padding="true" class="has-header"></ion-content>
+  <ion-content padding="true" class="has-header">
+   <h1 id="information-heading1" style="color: rgb(0, 0, 0);">Vous</h1>
+   <hr/>
+    <form id="preferences-form3" class="list">
+	<ion-item>
+	  <ion-label>Région</ion-label>
+	  <select [(ngModel)]="region">
+	    <option value="r1">R1</option>
+	    <option value="r2">R2</option>
+   	    <option value="etc">Etc</option>
+	  </select>
+	</ion-item>
+		<ion-item>
+	  <ion-label>Sexe</ion-label>
+	  <select [(ngModel)]="gender">
+	    <option value="f">Female</option>
+	    <option value="m">Male</option>
+	  </select>
+	</ion-item>
+	<ion-item>
+	  <ion-label>âge</ion-label>
+	  <select [(ngModel)]="age">
+	    <option value="0">0</option>
+	    <option value="1">1</option>
+	  </select>
+	</ion-item>
+   
+    <h1 id="information-heading2" style="color: rgb(0, 0, 0);">Vos enfants</h1>
+    <hr/>
+	<p>Prénom</p>
+	<ion-item>
+	  <ion-label>Date de naissance</ion-label>
+	  <select [(ngModel)]="date1">
+	    <option value="d1">d1</option>
+	  </select>
+	</ion-item>
+	<ion-item>
+	  <ion-label>Dernier rendez-vous</ion-label>
+	  <select [(ngModel)]="date1">
+	    <option value="d1">d1</option>
+	  </select>
+	</ion-item>
+	<ion-item>
+	  <ion-label>Depuis quelle date?</ion-label>
+	  <select [(ngModel)]="date1">
+	    <option value="d1">d1</option>
+	  </select>
+	</ion-item>
+	<p>Santé/Handicap</p>
+	
+    </form>
+  </ion-content>
+
 </ion-view>

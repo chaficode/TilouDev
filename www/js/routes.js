@@ -42,6 +42,16 @@ angular.module('app.routes', [])
 		}
 	})
 
+	.state('tabsController.inscription', {
+		url : '/inscription',
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/inscription.html',
+				controller : 'inscriptionCtrl'
+			}
+		}
+	})
+
 	.state('tabsController.referidreq', {
 		url : '/referidreq',
 		views : {
@@ -52,154 +62,244 @@ angular.module('app.routes', [])
 		}
 	})
 
-//	.state('tabsController', {
-//		url : '/page1',
-//		templateUrl : 'templates/tabsController.html',
-//		abstract : true
-//	})
-
-	.state('login', {
+	.state('tabsController.login', {
 		url : '/login',
-		templateUrl : 'templates/login.html',
-		controller : 'loginCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/login.html',
+				controller : 'loginCtrl'
+			}
+		}
 	})
 
-	.state('profile', {
+	.state('tabsController.profile', {
 		url : '/profile',
-		templateUrl : 'templates/profile.html',
-		controller : 'profileCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/profile.html',
+				controller : 'profileCtrl'
+			}
+		}
 	})
 
-	.state('preferences', {
+	.state('tabsController.preferences', {
 		url : '/preferences',
-		templateUrl : 'templates/preferences.html',
-		controller : 'preferencesCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/preferences.html',
+				controller : 'preferencesCtrl'
+			}
+		}
 	})
 
-	.state('home', {
+	.state('tabsController.home', {
 		url : '/home',
-		templateUrl : 'templates/home.html',
-		controller : 'homeCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/home.html',
+				controller : 'homeCtrl'
+			}
+		}
 	})
 
-	.state('personalInformation', {
+	.state('tabsController.personalInformation', {
 		url : '/personal_info',
-		templateUrl : 'templates/personalInformation.html',
-		controller : 'personalInformationCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/personalInformation.html',
+				controller : 'personalInformationCtrl'
+			}
+		}
 	})
 
-	.state('about', {
+	.state('tabsController.about', {
 		url : '/about',
-		templateUrl : 'templates/about.html',
-		controller : 'aboutCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/about.html',
+				controller : 'aboutCtrl'
+			}
+		}
 	})
 
-	.state('help', {
+	.state('tabsController.help', {
 		url : '/help',
-		templateUrl : 'templates/help.html',
-		controller : 'helpCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/help.html',
+				controller : 'helpCtrl'
+			}
+		}
 	})
 
-	.state('journal', {
+	.state('tabsController.journal', {
 		url : '/journal',
-		templateUrl : 'templates/journal.html',
-		controller : 'journalCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/journal.html',
+				controller : 'journalCtrl'
+			}
+		}
 	})
 
-	.state('graphicReport', {
+	.state('tabsController.graphicReport', {
 		url : '/graphic_report',
-		templateUrl : 'templates/graphicReport.html',
-		controller : 'graphicReportCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/graphicReport.html',
+				controller : 'graphicReportCtrl'
+			}
+		}
 	})
 
-	.state('measurements', {
+	.state('tabsController.measurements', {
 		url : '/measurements',
-		templateUrl : 'templates/measurements.html',
-		controller : 'measurementsCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/measurements.html',
+				controller : 'measurementsCtrl'
+			}
+		}
 	})
 
-	.state('conctact', {
+	.state('tabsController.conctact', {
 		url : '/contact',
-		templateUrl : 'templates/conctact.html',
-		controller : 'conctactCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/conctact.html',
+				controller : 'conctactCtrl'
+			}
+		}
 	})
 
-	.state('termsOfUse', {
+	.state('tabsController.termsOfUse', {
 		url : '/terms_of_use',
-		templateUrl : 'templates/termsOfUse.html',
-		controller : 'termsOfUseCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/termsOfUse.html',
+				controller : 'termsOfUseCtrl'
+			}
+		}
 	})
 
-	.state('consent', {
+	.state('tabsController.consent', {
 		url : '/consent',
-		templateUrl : 'templates/consent.html',
-		controller : 'consentCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/consent.html',
+				controller : 'consentCtrl'
+			}
+		}
 	})
 
-	.state('reference', {
+	.state('tabsController.reference', {
 		url : '/referenced_by',
-		templateUrl : 'templates/reference.html',
-		controller : 'referenceCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/reference.html',
+				controller : 'referenceCtrl'
+			}
+		}
 	})
 
-	.state('identification', {
+	.state('tabsController.identification', {
 		url : '/given_id',
-		templateUrl : 'templates/identification.html',
-		controller : 'identificationCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/identification.html',
+				controller : 'identificationCtrl'
+			}
+		}
 	})
 
-	.state('setupProfile', {
+	.state('tabsController.setupProfile', {
 		url : '/setup_profile',
-		templateUrl : 'templates/setupProfile.html',
-		controller : 'setupProfileCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/setupProfile.html',
+				controller : 'setupProfileCtrl'
+			}
+		}
 	})
 
-	.state('setupPreferences', {
+	.state('tabsController.setupPreferences', {
 		url : '/setup_preferences',
-		templateUrl : 'templates/setupPreferences.html',
-		controller : 'setupPreferencesCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/setupPreferences.html',
+				controller : 'setupPreferencesCtrl'
+			}
+		}
 	})
 
-	.state('measurementInstructions', {
+	.state('tabsController.measurementInstructions', {
 		url : '/measurement_instructions',
-		templateUrl : 'templates/measurementInstructions.html',
-		controller : 'measurementInstructionsCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/measurementInstructions.html',
+				controller : 'measurementInstructionsCtrl'
+			}
+		}
 	})
 
-	.state('surveyInvitation', {
+	.state('tabsController.surveyInvitation', {
 		url : '/survey_invitation',
-		templateUrl : 'templates/surveyInvitation.html',
-		controller : 'surveyInvitationCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/surveyInvitation.html',
+				controller : 'surveyInvitationCtrl'
+			}
+		}
 	})
 
-	.state('survey', {
+	.state('tabsController.survey', {
 		url : '/survey',
-		templateUrl : 'templates/survey.html',
-		controller : 'surveyCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/survey.html',
+				controller : 'surveyCtrl'
+			}
+		}
 	})
 
-	.state('information', {
+	.state('tabsController.information', {
 		url : '/information',
-		templateUrl : 'templates/information.html',
-		controller : 'informationCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/information.html',
+				controller : 'informationCtrl'
+			}
+		}
 	})
 
-	.state('alert', {
+	.state('tabsController.alert', {
 		url : '/alert',
-		templateUrl : 'templates/alert.html',
-		controller : 'alertCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/alert.html',
+				controller : 'alertCtrl'
+			}
+		}
 	})
 
-	.state('references', {
+	.state('tabsController.references', {
 		url : '/references',
-		templateUrl : 'templates/references.html',
-		controller : 'referencesCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/references.html',
+				controller : 'referencesCtrl'
+			}
+		}
 	})
 
-	.state('avatar', {
+	.state('tabsController.avatar', {
 		url : '/avatar',
-		templateUrl : 'templates/avatar.html',
-		controller : 'avatarCtrl'
+		views : {
+			'tab1' : {
+				templateUrl : 'templates/avatar.html',
+				controller : 'avatarCtrl'
+			}
+		}
 	})
 
 	$urlRouterProvider.otherwise('/home')
