@@ -1,3 +1,36 @@
-<ion-view title="Measurements" id="page13" style="">
-  <ion-content padding="true" class="has-header"></ion-content>
+<ion-view title="Écran de saisie" id="page-measurements">
+  <ion-content padding="true" class="has-header">
+    <form id="measurements-form1" class="list">
+      <label class="item item-select" id="select-children">
+        <span class="input-label">Enfant: </span>
+        <select>
+          <option>x</option>
+        </select>
+      </label>
+    </form>
+    <div class="spacer" style="width: 300px; height: 10px;"></div>
+    <h1 id="measurements-heading" style="color:#000000;">Poids</h1>
+    <div id="measurements-markdown1" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Lorem ipsum ...</p>
+    </div>
+	<form id="measurements-form2" class="list">
+		<div class="spacer" style="width: 300px; height: 10px;"></div>
+		<ion-list id="measurements-list">
+		  <label class="item item-input" id="measurements-input1">
+		    <span class="input-label">Lb</span>
+		    <input type="number" placeholder="">
+		  </label>
+		  <label class="item item-input item-stacked-label" id="measurements-input2">
+		    <span class="input-label">Date à laquelle la mesure a été faite: </span>
+		    <input type="date" placeholder="">
+		  </label>
+		</ion-list>
+		<div id="measurements-markdown2" class="show-list-numbers-and-dots">
+		  <p style="color:#000000;">Cette mesure a été faite par un professionel de la santé</p>
+		</div>
+	  	<ion-checkbox id="measurements-checkbox"></ion-checkbox>
+	</form>
+    <div class="spacer" style="width: 300px; height: 10px;"></div>
+    <button id="measurements-button" class="button button-positive  button-block">Enregistrer</button>
+  </ion-content>
 </ion-view>
