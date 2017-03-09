@@ -1,55 +1,58 @@
-<ion-view title="Personal information" id="page8" style="">
+<ion-view title="Information personnelle" id="page-personal-information">
   <ion-content padding="true" class="has-header">
-   <h1 id="information-heading1" style="color: rgb(0, 0, 0);">Vous</h1>
-   <hr/>
-    <form id="preferences-form3" class="list">
-	<ion-item>
-	  <ion-label>Région</ion-label>
-	  <select [(ngModel)]="region">
-	    <option value="r1">R1</option>
-	    <option value="r2">R2</option>
-   	    <option value="etc">Etc</option>
-	  </select>
-	</ion-item>
-		<ion-item>
-	  <ion-label>Sexe</ion-label>
-	  <select [(ngModel)]="gender">
-	    <option value="f">Female</option>
-	    <option value="m">Male</option>
-	  </select>
-	</ion-item>
-	<ion-item>
-	  <ion-label>âge</ion-label>
-	  <select [(ngModel)]="age">
-	    <option value="0">0</option>
-	    <option value="1">1</option>
-	  </select>
-	</ion-item>
-   
-    <h1 id="information-heading2" style="color: rgb(0, 0, 0);">Vos enfants</h1>
-    <hr/>
-	<p>Prénom</p>
-	<ion-item>
-	  <ion-label>Date de naissance</ion-label>
-	  <select [(ngModel)]="date1">
-	    <option value="d1">d1</option>
-	  </select>
-	</ion-item>
-	<ion-item>
-	  <ion-label>Dernier rendez-vous</ion-label>
-	  <select [(ngModel)]="date1">
-	    <option value="d1">d1</option>
-	  </select>
-	</ion-item>
-	<ion-item>
-	  <ion-label>Depuis quelle date?</ion-label>
-	  <select [(ngModel)]="date1">
-	    <option value="d1">d1</option>
-	  </select>
-	</ion-item>
-	<p>Santé/Handicap</p>
-	
+    <form id="personal-information-form" class="list">
+      <h1 id="personal-information-heading" style="color:#000000;">Vous</h1>
+      <div class="spacer" style="width: 300px; height: 10px;"></div>
+      <label class="item item-select" id="ipersonal-information-select1">
+        <span class="input-label">Région :</span>
+        <select>
+          <option>Estrie</option>
+          <option>Mauricie</option>
+          <option>Montréal</option>
+          <option>Etc.</option>
+        </select>
+      </label>
+      <label class="item item-select" id="personal-information-select2">
+        <span class="input-label">Sexe :</span>
+        <select>
+          <option>Féminin</option>
+          <option>Masculin</option>
+        </select>
+      </label>
+      <label class="item item-input" id="personal-information-input1">
+        <span class="input-label">Âge :</span>
+        <input type="number" placeholder="">
+      </label>
+      <h1 id="personal-information-heading2" style="color:#000000;">Vos enfants</h1>
+      <div class="spacer" style="width: 300px; height: 10px;"></div>
+      <label class="item item-input" id="personal-information-input2">
+        <span class="input-label">Prénom :</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="personal-information-input3">
+        <span class="input-label">Date de naissance :</span>
+        <input type="date" placeholder="">
+      </label>
+      <label class="item item-input" id="personal-information-input4">
+        <span class="input-label">Dernier rendez-vous : </span>
+        <input type="date" placeholder="">
+      </label>
+      <label class="item item-select" id="personal-information-select4">
+        <span class="input-label">Santé / Handicap :</span>
+        <select>
+          <option>H1</option>
+          <option>H2</option>
+          <option>Etc.</option>
+        </select>
+      </label>
+      <label class="item item-input" id="personal-information-input5">
+        <span class="input-label">depuis quelle date ?</span>
+        <input type="date" placeholder="">
+      </label>
+      <div class="spacer" style="width: 300px; height: 10px;"></div>
+      <button id="personal-information-button1" class="button button-positive button-small icon ion-plus"></button>
+      <div class="spacer" style="width: 300px; height: 10px;"></div>
+      <button id="personal-information-button2" class="button button-positive  button-block">Valider</button>
     </form>
   </ion-content>
-
 </ion-view>
