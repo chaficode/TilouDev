@@ -1,23 +1,27 @@
-<ion-view title="Preferences" id="page7" style="">
+<ion-view title="Preferences" id="page-preferences">
   <ion-content padding="true" class="has-header">
-    <h1 id="preferences-heading6" style="color: rgb(0, 0, 0);">Preferences</h1>
-    <hr/>
-    <h2 id="preferences-heading2" style="color: rgb(0, 0, 0);">Plage horaire des rappels</h2>    
-    <form id="preferences-form3" class="list">
-       <ion-item>
-      <ion-label>Entre:</ion-label>
-      <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
-    </ion-item>
-      
-      
-      <label class="item item-select" id="preferences-select2">
-        <span class="input-label">et</span>
-        <select></select>
-      </label>
-    </form>
-    
-    <p>Veuillez insérer une photo de enfant x</p>
-    <button id="preferences-button10" class="button button-positive  button-block">Browse</button>
-    <button id="preferences-button11" class="button button-positive  button-block">Confirm</button>
+    <h1 id="preferences-heading" style="color:#000000;">Préférences</h1>
+    <div class="spacer" style="width: 300px; height: 10px;"></div>
+    <div id="preferences-markdown" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Plage horaire des rappels</p>
+    </div>
+      <form id="preferences-form" class="list">
+        <label class="item item-input" id="preferences-input">        
+          <span class="input-label">Entre :</span>
+          <input type="time" placeholder="">
+        </label>
+        <label class="item item-input" id="preferences-input2">
+          <span class="input-label">et : </span>
+          <input type="time" placeholder="">
+        </label>
+        <div class="spacer" style="width: 300px; height: 10px;"></div>
+        <div id="preferences-markdown" class="show-list-numbers-and-dots">
+          <p style="color:#000000;">Veuillez insérer une photo de
+            <strong>enfant x</strong>
+          </p>
+        </div>
+        <button id="preferences-button1" class="button button-positive  button-block">Parcourir</button>
+        <button id="preferences-button2" class="button button-positive  button-block">Valider</button>
+      </form>
   </ion-content>
 </ion-view>
