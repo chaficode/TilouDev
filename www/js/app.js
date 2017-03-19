@@ -15,10 +15,10 @@ angular
 				function($ionicConfigProvider, $sceDelegateProvider, $translateProvider) {
 
 					$translateProvider.translations('en', {
-						TITLE : 'Helloen'
+						TITLE : 'Home'
 					});
 					$translateProvider.translations('fr', {
-						TITLE : 'Hallofr'
+						TITLE : 'Accueil'
 					});
 					$translateProvider.preferredLanguage('en');
 					$translateProvider

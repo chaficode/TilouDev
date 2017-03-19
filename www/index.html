@@ -19,37 +19,8 @@
 
     
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    
-
-    <style type="text/css">
-      .platform-ios .manual-ios-statusbar-padding{
-        padding-top:20px;
-      }
-      .manual-remove-top-padding{
-        padding-top:0px; 
-      }
-      .manual-remove-top-padding .scroll{
-        padding-top:0px !important;
-      }
-      ion-list.manual-list-fullwidth div.list, .list.card.manual-card-fullwidth {
-        margin-left:-10px;
-        margin-right:-10px;
-      }
-      ion-list.manual-list-fullwidth div.list > .item, .list.card.manual-card-fullwidth > .item {
-        border-radius:0px;
-        border-left:0px;
-        border-right: 0px;
-      }
-      .show-list-numbers-and-dots ul{
-        list-style-type: disc;
-        padding-left:40px;
-      }
-      .show-list-numbers-and-dots ol{
-        list-style-type: decimal;
-        padding-left:40px;
-      }
-    </style>
-
+    <link href="css/style.css" rel="stylesheet">
+       
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/routes.js"></script>         
@@ -73,23 +44,33 @@
       </ion-nav-bar>
       <ion-nav-view></ion-nav-view>
     </ion-side-menu-content>
+    
+    <!-- **** -->
+    <!-- Menu -->
+    <!-- **** -->    
     <ion-side-menu side="right" id="side-menu21">
       <ion-header-bar class="bar-stable">
         <div class="title">menu</div>
       </ion-header-bar>
       <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-right has-header ">
-      <ion-list id="menu-list5" data-componentid="list5">
       
-          <ion-item id="menu-list-profile" ui-sref="tabsController.profile" menu-close="" data-componentid="list-profile">Votre profil</ion-item>
-          <ion-item id="menu-list-preferences" ui-sref="tabsController.preferences" menu-close="" data-componentid="list-preferences">Vos préférences</ion-item>
-          <ion-item id="menu-list-personal-information" ui-sref="tabsController.personalInformation" menu-close="" data-componentid="list-personal-information">Informations complemetaires</ion-item>
-          <ion-item id="menu-list-measurements" ui-sref="tabsController.measurements" menu-close="" data-componentid="list-measurements">Saisie</ion-item>
-          <ion-item id="menu-list-journal" ui-sref="tabsController.journal" menu-close="" data-componentid="list-journal">Journal des mesures</ion-item>
-          <ion-item id="menu-list-graphicReport" ui-sref="tabsController.graphicReport" menu-close="" data-componentid="list-graphicReport">Bilan</ion-item>
-          <ion-item id="menu-list-conctact" ui-sref="tabsController.conctact" menu-close="" data-componentid="list-conctact">Contactez nous</ion-item>
-          <ion-item id="menu-list-about" ui-sref="tabsController.about" menu-close="" data-componentid="list-about">Apropos de nous</ion-item>
-          <ion-item id="menu-list-help" ui-sref="tabsController.help" menu-close="" data-componentid="list-help">Aide</ion-item>
-        </ion-list>        
+      
+      <ion-list id="menu-list5" class="menu-list" data-componentid="list5">
+        <ion-item id="menu-about-yourself" menu-close="" data-componentid="list-profile">
+			<h1>SUR VOUS</h1>
+			<ion-list id="menu-list6" class="sub-menu-list" data-componentid="list5">
+          		<ion-item id="menu-list-profile" ui-sref="tabsController.profile" menu-close="" data-componentid="list-profile">Votre profil</ion-item>
+         		<ion-item id="menu-list-preferences" ui-sref="tabsController.preferences" menu-close="" data-componentid="list-preferences">Vos préférences</ion-item>
+          		<ion-item id="menu-list-personal-information" ui-sref="tabsController.personalInformation" menu-close="" data-componentid="list-personal-information">Informations complemetaires</ion-item>
+			</ion-list>
+		</ion-item>            
+         <ion-item id="menu-list-measurements" ui-sref="tabsController.measurements" menu-close="" data-componentid="list-measurements">Saisie</ion-item>
+         <ion-item id="menu-list-journal" ui-sref="tabsController.journal" menu-close="" data-componentid="list-journal">Journal des mesures</ion-item>
+         <ion-item id="menu-list-graphicReport" ui-sref="tabsController.graphicReport" menu-close="" data-componentid="list-graphicReport">Bilan</ion-item>
+         <ion-item id="menu-list-conctact" ui-sref="tabsController.conctact" menu-close="" data-componentid="list-conctact">Contactez nous</ion-item>
+         <ion-item id="menu-list-about" ui-sref="tabsController.about" menu-close="" data-componentid="list-about">Apropos de nous</ion-item>
+         <ion-item id="menu-list-help" ui-sref="tabsController.help" menu-close="" data-componentid="list-help">Aide</ion-item>
+       </ion-list>        
         
         <a ui-sref="tabsController.accueil" menu-close="" id="menu-button7" class="button button-positive  button-block" data-componentid="button7">{{ 'TITLE' | translate }}</a>
            <button id="menu-button8" class="button button-positive  button-block" data-componentid="button8" ng-click="ChangeLanguage('en')">en</button>

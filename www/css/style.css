@@ -40,3 +40,306 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	box-shadow: none;
 	color: rgb(0, 0, 0);
 }
+
+/**************/
+/* Menu style */
+/**************/
+
+/*
+	0a71b4 -> rgb: 10, 113, 180
+	99cc00
+	ff9900
+	bd0926
+	663399
+*/
+.menu-list .item {
+	background-color: rgba(10, 113, 180, 0.5);
+	border-left-color: rgba(10, 113, 180, 1);
+	border-left-width: 40px;
+	/* 	color: rgba(255, 255, 255, 1); */
+}
+
+.menu-list .item h1 {
+	color: rgba(255, 255, 255, 1);
+	font-size: 48pt;
+}
+
+.sub-menu-list .item {
+	color: #ff00ff;
+	background-color: #ffffff;
+	font-size: 41pt;
+	/* 	opacity: 0.5; */
+	/* 	border-left-color: #ff0000; */
+	border-left-width: 0px;
+	/* 	margin-left: 0%; */
+}
+
+.button-connexion {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #bd0926;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	padding: 1px;
+	width: 461px;
+	height: 98px;
+	text-decoration: none;
+}
+
+.button-connexion:hover {
+	background-color: #bd0925;
+}
+
+.button-connexion:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-continuer {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #99cc00;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	padding: 1px;
+	width: 461px;
+	height: 98px;
+	text-decoration: none;
+}
+
+.button-continuer:hover {
+	background-color: #99cc00;
+}
+
+.button-continuer:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-suivant {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #ff9900;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	width: 461px;
+	height: 98px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-suivant:hover {
+	background-color: #ff9900;
+}
+
+.button-suivant:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-parcourir {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #717273;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	width: 461px;
+	height: 98px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-parcourir:hover {
+	background-color: #717273;
+}
+
+.button-parcourir:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-valider {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #0a71b4;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	width: 461px;
+	height: 98px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-valider:hover {
+	background-color: #0a71b4;
+}
+
+.button-valider:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-oui {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #ff9900;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	width: 191px;
+	height: 98px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-oui:hover {
+	background-color: #ff9900;
+}
+
+.button-oui:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-non {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #717273;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	width: 191px;
+	height: 98px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-non:hover {
+	background-color: #717273;
+}
+
+.button-non:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-plus {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #717273;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	width: 191px;
+	height: 98px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-plus:hover {
+	background-color: #717273;
+}
+
+.button-plus:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-moins {
+	-moz-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	-webkit-box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	box-shadow: 7.4px 7.4px 7.4px -7.4px #d9dadb;
+	background-color: #999b9c;
+	-moz-border-radius: 25.8px;
+	-webkit-border-radius: 25.8px;
+	border-radius: 25.8px;
+	border: 3.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 56px;
+	text-align: center;
+	width: 191px;
+	height: 98px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-moins:hover {
+	background-color: #999b9c;
+}
+
+.button-moins:active {
+	position: relative;
+	top: 1px;
+}

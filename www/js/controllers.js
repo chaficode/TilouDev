@@ -13,7 +13,7 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 } ])
 
 .controller(
-		'accueilCtrl',
+		'homeCtrl',
 		[ '$scope', '$stateParams', '$translate',
 				function($scope, $stateParams, $translate) {
 					$scope.ChangeLanguage = function(lang) {
@@ -26,22 +26,16 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
 		} ])
-		
+
 .controller('inscriptionCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
-		} ])		
+		} ])
 
 .controller('referidreqCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
 		} ])
-
-/*
- * .controller('menuCtrl', [ '$scope', '$stateParams', function($scope,
- * $stateParams) {
- *  } ])
- */
 
 .controller('loginCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
@@ -54,11 +48,6 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 		} ])
 
 .controller('preferencesCtrl',
-		[ '$scope', '$stateParams', function($scope, $stateParams) {
-
-		} ])
-
-.controller('homeCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
 		} ])

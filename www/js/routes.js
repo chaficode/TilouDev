@@ -92,21 +92,17 @@ angular.module('app.routes', [])
 		}
 	})
 
-	.state('tabsController.home', {
+	.state('home', {
 		url : '/home',
-		views : {
-			'tab1' : {
-				templateUrl : 'templates/home.html',
-				controller : 'homeCtrl'
-			}
-		}
+		templateUrl : 'templates/home.html',
+		controller : 'homeCtrl'
 	})
 
 	.state('tabsController.personalInformation', {
 		url : '/personal_info',
 		views : {
 			'tab1' : {
-				templateUrl : 'templates/personalInformation.html',
+				templateUrl : 'templates/personal_information.html',
 				controller : 'personalInformationCtrl'
 			}
 		}
