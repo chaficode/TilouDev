@@ -47,31 +47,78 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 
 /*
 	0a71b4 -> rgb: 10, 113, 180
-	99cc00
-	ff9900
-	bd0926
-	663399
+	99cc00 -> rgb: 153, 204, 0
+	ff9900 -> rgb: 255, 153, 0
+	bd0926 -> rgb: 189, 9, 38
+	663399 -> rgb: 102, 51, 153
+	
+	87888a
 */
 .menu-list .item {
-	background-color: rgba(10, 113, 180, 0.5);
-	border-left-color: rgba(10, 113, 180, 1);
 	border-left-width: 40px;
-	/* 	color: rgba(255, 255, 255, 1); */
+	padding: 0px;
+	font-family:  Arial;
 }
 
 .menu-list .item h1 {
 	color: rgba(255, 255, 255, 1);
-	font-size: 48pt;
+	padding: 16px 49px 16px 16px;	
+	font-family:  Arial;
+	/* 	font-size: 48pt; */
+	font-size: 14pt;
+	margin-bottom: 0px;
 }
 
 .sub-menu-list .item {
-	color: #ff00ff;
-	background-color: #ffffff;
-	font-size: 41pt;
-	/* 	opacity: 0.5; */
-	/* 	border-left-color: #ff0000; */
+	color: #87888a;
+	font-family:  Arial;
+	/* 	font-size: 41pt; */
 	border-left-width: 0px;
-	/* 	margin-left: 0%; */
+	padding-left: 20px;	
+	
+}
+
+#menu-about-yourself {
+	background-color: rgba(10, 113, 180, 0.5);
+	border-left-color: rgba(10, 113, 180, 1);
+}
+
+#menu-list-measurements {
+	border-left-color: rgba(153, 204, 0, 1);
+}
+
+#menu-list-measurements a.item-content {
+	color: rgba(255, 255, 255, 1);
+	/* 	font-size: 48pt; */
+	background-color: rgba(153, 204, 0, 0.5);
+	font-size: 14pt;
+}
+
+#menu-list-journal {
+	border-left-color: rgba(255, 153, 0, 1);
+}
+
+#menu-list-journal a.item-content {
+	color: rgba(255, 255, 255, 1);
+	/* 	font-size: 48pt; */
+	background-color: rgba(255, 153, 0, 0.5);
+	font-size: 14pt;		
+}
+
+#menu-list-graphicReport {
+	border-left-color: rgba(189, 9, 38, 1);
+}
+
+#menu-list-graphicReport  a.item-content {
+	color: rgba(255, 255, 255, 1);
+	/* 	font-size: 48pt; */
+	background-color: rgba(189, 9, 38, 0.5);
+	font-size: 14pt;	
+}
+
+#menu-about-app {
+	background-color: rgba(102, 51, 153, 0.5);
+	border-left-color: rgba(102, 51, 153, 1);
 }
 
 .button-connexion {

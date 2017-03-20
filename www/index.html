@@ -55,23 +55,27 @@
       <ion-content ng-controller="menuCtrl" padding="false" class="side-menu-right has-header ">
       
       
-      <ion-list id="menu-list5" class="menu-list" data-componentid="list5">
+      <ion-list id="menu-list" class="menu-list" data-componentid="list5">
         <ion-item id="menu-about-yourself" menu-close="" data-componentid="list-profile">
 			<h1>SUR VOUS</h1>
-			<ion-list id="menu-list6" class="sub-menu-list" data-componentid="list5">
+			<ion-list id="sub-menu-list1" class="sub-menu-list" data-componentid="list5">
           		<ion-item id="menu-list-profile" ui-sref="tabsController.profile" menu-close="" data-componentid="list-profile">Votre profil</ion-item>
          		<ion-item id="menu-list-preferences" ui-sref="tabsController.preferences" menu-close="" data-componentid="list-preferences">Vos préférences</ion-item>
           		<ion-item id="menu-list-personal-information" ui-sref="tabsController.personalInformation" menu-close="" data-componentid="list-personal-information">Informations complemetaires</ion-item>
 			</ion-list>
 		</ion-item>            
-         <ion-item id="menu-list-measurements" ui-sref="tabsController.measurements" menu-close="" data-componentid="list-measurements">Saisie</ion-item>
-         <ion-item id="menu-list-journal" ui-sref="tabsController.journal" menu-close="" data-componentid="list-journal">Journal des mesures</ion-item>
-         <ion-item id="menu-list-graphicReport" ui-sref="tabsController.graphicReport" menu-close="" data-componentid="list-graphicReport">Bilan</ion-item>
-         <ion-item id="menu-list-conctact" ui-sref="tabsController.conctact" menu-close="" data-componentid="list-conctact">Contactez nous</ion-item>
-         <ion-item id="menu-list-about" ui-sref="tabsController.about" menu-close="" data-componentid="list-about">Apropos de nous</ion-item>
-         <ion-item id="menu-list-help" ui-sref="tabsController.help" menu-close="" data-componentid="list-help">Aide</ion-item>
-       </ion-list>        
-        
+         <ion-item id="menu-list-measurements" ui-sref="tabsController.measurements" menu-close="" data-componentid="list-measurements">SAISIE</ion-item>
+         <ion-item id="menu-list-journal" ui-sref="tabsController.journal" menu-close="" data-componentid="list-journal">JOURNAL DES MESURES</ion-item>
+         <ion-item id="menu-list-graphicReport" ui-sref="tabsController.graphicReport" menu-close="" data-componentid="list-graphicReport">BILAN</ion-item>
+  	   	 <ion-item id="menu-about-app" menu-close="" data-componentid="list-profile">
+			<h1>SUR L'APPLICATION</h1>
+     		<ion-list id="sub-menu-list2" class="sub-menu-list" data-componentid="list5">        
+         		<ion-item id="menu-list-conctact" ui-sref="tabsController.conctact" menu-close="" data-componentid="list-conctact">Contactez nous</ion-item>
+         		<ion-item id="menu-list-about" ui-sref="tabsController.about" menu-close="" data-componentid="list-about">Apropos de nous</ion-item>
+         		<ion-item id="menu-list-help" ui-sref="tabsController.help" menu-close="" data-componentid="list-help">Aide</ion-item>
+       		</ion-list>        
+       	 </ion-item>
+      </ion-list>
         <a ui-sref="tabsController.accueil" menu-close="" id="menu-button7" class="button button-positive  button-block" data-componentid="button7">{{ 'TITLE' | translate }}</a>
            <button id="menu-button8" class="button button-positive  button-block" data-componentid="button8" ng-click="ChangeLanguage('en')">en</button>
         <button id="menu-button9" class="button button-positive  button-block" data-componentid="button9" ng-click="ChangeLanguage('fr')">fr</button>
