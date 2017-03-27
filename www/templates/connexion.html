@@ -3,21 +3,19 @@
   
     <form id="connexion-form" class="list">
       <ion-list id="connexion-list">
+                <span class="input-label">Courriel :</span>
+      
         <label class="item item-input" id="connexion-input-user">
-          <span class="input-label">Utilisateur:</span>
           <input type="text" placeholder="">
         </label>
+                  <span class="input-label">Mot de passe :</span>
         <label class="item item-input" id="connexion-input-password">
-          <span class="input-label">Mot de passe:</span>
           <input type="password" placeholder="">
         </label>
-        <p>Vous avez oublié votre mot de passe?</p>
-        <p><a href-inappbrowser="/signup" id="connexion-recover-password">cliquez ici</a></p>
+        <p></p>
+        <p style="color:#87888a;">Vous avez oublié votre mot de passe ? <a href-inappbrowser="/signup" id="connexion-recover-password">Cliquez ici</a></p>
       </ion-list>
-      <button id="connexion-button-connect" class="button button-stable  button-block">Se connecter</button>
+      <button id="preferences-button1" class="button-connexion">Se connecter</button>
     </form>
-  	<hr/>    
-     <p>ou si vous êtes un nouvel utilisateur,</p>  	
-    <a ui-sref="tabsController.inscription" id="connexion-button-new" class="button button-stable  button-block">S'inscrire</a>     
-  </ion-content>
+    </ion-content>
 </ion-view>

@@ -409,3 +409,27 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 #journal-page ion-content {
   padding: 0px;
   }
+  
+#profil-page{
+	border-left-color: #0a71b4;
+}
+
+#profil-page h1{
+	background-color: rgba(10, 113, 180, 0.6);
+}
+
+#profil-page- ion-content {
+  padding: 0px;
+  }
+  
+  #measurements-page{
+	border-left-color: #99cc00;
+}
+
+#measurements-page h1{
+	background-color: rgba(153, 204, 0, 0.6);
+}
+
+#profil-page- ion-content {
+  padding: 0px;
+  }
