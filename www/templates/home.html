@@ -1,21 +1,28 @@
-<ion-view title="Home" id="page15">
+<ion-view title="Ti-lou" id="page15">
   <ion-content padding="true" class="has-header">
       <button id="menu-button8" class="button button-positive  button-block" data-componentid="button8" ng-click="ChangeLanguage('en')">en</button>
        <button id="menu-button9" class="button button-positive  button-block" data-componentid="button9" ng-click="ChangeLanguage('fr')">fr</button>
 		{{ 'TITLE' | translate }}
   
     <div>
-      <img src="img/LwwOBP7Sea9J0DA098OL_file0001714275427.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
+      <img src="img/Bebe.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">
     </div>
+   <p></p>
     <div class="spacer" style="width: 300px; height: 10px;"></div>
     <div id="home-markdown11" class="show-list-numbers-and-dots">
-      <p style="color:#000000;">Cette application vous aide à suivre l’évolution du développement de votre enfant de 0 à 2 ans. Vous y trouverez l’information nécessaire et des conseils utiles au sein d’une approche personnalisée.</p>
+      <p style="color:#87888a;">Cette application vous aide à suivre l’évolution du développement de votre enfant de 0 à 2 ans. Vous y trouverez l’information nécessaire et des conseils utiles au sein d’une approche personnalisée.</p>
 
-      <p style="color:#000000;">Développée de manière étique et ludique, Ti-loup est la solution pour prendre la santé de votre enfant en main.</p>
+      <p style="color:#87888a;">Développée de manière étique et ludique, Ti-loup est la solution pour prendre la santé de votre enfant en main.</p>
     </div>
     <div class="spacer" style="width: 300px; height: 10px;"></div>
-    <button id="home-button25" class="button button-positive  button-block">Cliquez ici pour plus d’informations</button>
-    <a ui-sref="login" id="home-button23" class="button button-positive  button-block">Connexion</a>
-    <a ui-sref="reference" id="home-button24" class="button button-positive  button-block">J’essaie</a>
+ <a ui-sref="home.html" id="connexion-button-new">Cliquez ici pour plus d'information.</a>
+ <p></p>
+ 
+    <form id="connexion-form" class="list">
+      <button id="preferences-button1" class="button-connexion">Se connecter</button>
+    </form>
+  	<hr/>    
+     <p style="color:#87888a;">Si vous êtes un nouvel utilisateur...</p>  	
+    <a ui-sref="tabsController.inscription" id="connexion-button-new" class="button button-valider">S'inscrire</a>     
   </ion-content>
 </ion-view>
