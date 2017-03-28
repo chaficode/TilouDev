@@ -121,6 +121,13 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	border-left-color: rgba(102, 51, 153, 1);
 }
 
+/**************/
+/* button style */
+/**************/
+
+/*
+	
+*/
 
 .button-connexion {
 	-moz-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
@@ -393,6 +400,20 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	top: 1px;
 }
 
+/**************/
+/* background pages style */
+/**************/
+
+/*
+	0a71b4 -> rgb: 10, 113, 180, 0.6
+	99cc00 -> rgb: 153, 204, 0, 0.6
+	ff9900 -> rgb: 255, 153, 0, 0.6
+	bd0926 -> rgb: 189, 9, 38, 0.6
+	663399 -> rgb: 102, 51, 153, 0.6
+	
+	87888a
+*/
+
 .tilou-page{
 	border-left-style: solid;
 	border-left-width: 15px; 
@@ -404,9 +425,14 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 
 #journal-page h1{
 	background-color: rgba(255, 153, 0, 0.6);
+	font-family: Arial;
+	font-size: 30px;
+	color: #fff;
+	padding-left: 10px;
+	font-variant: small-caps;
 }
 
-#journal-page ion-content {
+#journal-page > ion-content > div.scroll.padding {
   padding: 0px;
   }
   
@@ -416,20 +442,65 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 
 #profil-page h1{
 	background-color: rgba(10, 113, 180, 0.6);
+	font-family: Arial;
+	font-size: 30px;
+	color: #fff;
+	padding-left: 10px;
+	font-variant: small-caps;
 }
 
-#profil-page- ion-content {
+#profil-page > ion-content > div.scroll.padding {
   padding: 0px;
   }
   
-  #measurements-page{
+#measurements-page{
 	border-left-color: #99cc00;
 }
 
 #measurements-page h1{
 	background-color: rgba(153, 204, 0, 0.6);
+	font-family: Arial;
+	font-size: 30px;
+	color: #fff;
+	padding-left: 10px;
+	font-variant: small-caps;	
+	
 }
 
-#profil-page- ion-content {
+#measurements-page > ion-content > div.scroll.padding {
+  padding: 0px;
+  }
+  
+#graphic-report-page{
+	border-left-color: #bd0926;
+}
+
+#graphic-report-page h1{
+	background-color: rgba(189, 9, 38, 0.6);
+	font-family: Arial;
+	font-size: 30px;
+	color: #fff;
+	padding-left: 10px;
+	font-variant: small-caps;
+}
+
+#graphic-report-page > ion-content > div.scroll.padding {
+  padding: 0px;
+  }
+  
+#about-app-page{
+	border-left-color: #663399;
+}
+
+#about-app-page h1{
+	background-color: rgba(102, 51, 153, 0.6);
+	font-family: Arial;
+	font-size: 30px;
+	color: #fff;
+	padding-left: 10px;
+	font-variant: small-caps;
+}
+
+#about-app-page > ion-content > div.scroll.padding {
   padding: 0px;
   }
