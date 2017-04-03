@@ -142,7 +142,7 @@ angular.module('app.routes', [])
 		url : '/graphic_report',
 		views : {
 			'tab1' : {
-				templateUrl : 'templates/graphicReport.html',
+				templateUrl : 'templates/graphic_report.html',
 				controller : 'graphicReportCtrl'
 			}
 		}
