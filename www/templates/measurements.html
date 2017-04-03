@@ -1,40 +1,46 @@
 <ion-view title="Measurements" id="measurements-page" class="tilou-page">
-	<ion-nav-title>
-    	<img src="img/avatar.png">
-     	<img src="img/tilou-test.png">
-    </ion-nav-title>
-  <ion-content padding="true" class="has-header"><h1>bilan de santé de l'enfant</h1>
-    <form id="measurements-form1" class="list">
-      <label class="item item-select" id="select-children">
-        <span class="input-label">Enfant: </span>
-        <select>
-          <option>x</option>
-        </select>
-      </label>
-    </form>
-    <div class="spacer" style="width: 300px; height: 10px;"></div>
-    <h2>Poids</h2>
-    <div id="measurements-markdown1" class="show-list-numbers-and-dots">
-      <p style="color:#000000;">Lorem ipsum ...</p>
-    </div>
-	<form id="measurements-form2" class="list">
-		<div class="spacer" style="width: 300px; height: 10px;"></div>
-		<ion-list id="measurements-list">
-		  <label class="item item-input" id="measurements-input1">
-		    <span class="input-label">Lb</span>
-		    <input type="number" placeholder="">
-		  </label>
-		  <label class="item item-input item-stacked-label" id="measurements-input2">
-		    <span class="input-label">Date à laquelle la mesure a été faite: </span>
-		    <input type="date" placeholder="">
-		  </label>
-		</ion-list>
-		<div id="measurements-markdown2" class="show-list-numbers-and-dots">
-		  <p style="color:#000000;">Cette mesure a été faite par un professionel de la santé</p>
-		</div>
-	  	<ion-checkbox id="measurements-checkbox"></ion-checkbox>
+<ion-nav-title> <img src="img/avatar.png"
+	style="width: 20%; height: 100%;"> <img src="img/tilou-test.png"
+	style="width: 30%; height: 100%;"> </ion-nav-title> <ion-content padding="true"
+	class="has-header">
+<h1>Saisie de mesures</h1>
+</br>
+<form id="measurements-form1" class="list">
+	<label class="item item-select" id="select-children"> <span
+		class="input-label">Enfant: </span> <select>
+			<option></option>
+			<option>Nom enfant 1</option>
+			<option>Nom enfant 2</option>
+			<option>Nom enfant 3</option>
+	</select>
+	</label>
+</form>
+<div class="item item-icon-right">
+	Lorem ipsum dolor sit amet, consect </br>adipiscing elit. Donec quis purus
+	vel purus.
+</div>
+<p style="color: #000000;">Lorem ipsum summun roptem clarum...</p>
+</div>
+<form id="measurements-form2" class="list">
+	<div class="spacer" style="width: 300px; height: 10px;"></div>
+	<ion-list id="measurements-list"> <label
+		class="item item-input" id="measurements-input1"> <span
+		class="input-label">Lb</span> <input type="number" placeholder="">
+	</label> </br>
+	<label class="item item-input item-stacked-label"
+		id="measurements-input2"> <span class="input-label">Date
+			à laquelle la mesure a été faite: </span> <input type="date" placeholder="">
+	</label>
+
+	<div class="spacer" style="width: 300px; height: 10px;"></div>
+	<form id="profile-form" class="list">
+		<ion-checkbox id="profile-checkbox">Cette mesure a été
+		faite par un </br>
+		professionel de la santé.</ion-checkbox>
+
+
 	</form>
-    <div class="spacer" style="width: 300px; height: 10px;"></div>
-    <button id="measurements-button" class="button button-positive  button-block">Enregistrer</button>
-  </ion-content>
-</ion-view>
+	</ion-list>
+	<div class="spacer" style="width: 300px; height: 10px;"></div>
+	<button id="measurements-button" class="button button-continuer">Enregistrer</button>
+</ion-content> </ion-view>

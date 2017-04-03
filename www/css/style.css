@@ -57,25 +57,24 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 .menu-list .item {
 	border-left-width: 20px;
 	padding: 0px;
-	font-family:  Arial;
+	font-family: Arial;
 }
 
 .menu-list .item h1 {
 	color: rgba(255, 255, 255, 1);
-	padding: 14px 40px 14px 14px;	
-	font-family:  Arial;
+	padding: 14px 40px 14px 14px;
+	font-family: Arial;
 	/* 	font-size: 48pt; */
-	font-size: 14pt;
+	font-size: 18px;
 	margin-bottom: 0px;
 }
 
 .sub-menu-list .item {
 	color: #87888a;
-	font-family:  Arial;
+	font-family: Arial;
 	/* 	font-size: 41pt; */
 	border-left-width: 0px;
-	padding-left: 10px;	
-	
+	padding-left: 10px;
 }
 
 #menu-about-yourself {
@@ -91,7 +90,7 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	color: rgba(255, 255, 255, 1);
 	/* 	font-size: 48pt; */
 	background-color: rgba(153, 204, 0, 0.5);
-	font-size: 14pt;
+	font-size: 18px;
 }
 
 #menu-list-journal {
@@ -102,7 +101,7 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	color: rgba(255, 255, 255, 1);
 	/* 	font-size: 48pt; */
 	background-color: rgba(255, 153, 0, 0.5);
-	font-size: 14pt;		
+	font-size: 18px;
 }
 
 #menu-list-graphicReport {
@@ -113,7 +112,7 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	color: rgba(255, 255, 255, 1);
 	/* 	font-size: 48pt; */
 	background-color: rgba(189, 9, 38, 0.5);
-	font-size: 14pt;	
+	font-size: 18px;
 }
 
 #menu-about-app {
@@ -128,25 +127,25 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 /*
 	
 */
-
 .button-connexion {
 	-moz-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
 	-webkit-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
 	box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
 	background-color: #bd0926;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	border-radius: 15px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 10px;
 	border: 2.5px solid #d9dadb;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
 	font-family: 'Homemade Apple', cursive;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
-	width: 100%;
-	height: 46px;
-	padding: 1px;
+	margin-left: 5%;
+	width: 90%;
+	height: 60px;
+	padding: 3px;
 	text-decoration: none;
 }
 
@@ -166,16 +165,17 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	background-color: #99cc00;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	border: 2.5px solid #d9dadb;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
 	font-family: 'Homemade Apple', cursive;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
-	width: 100%;
-	height: 46px;
+	margin-left: 5%;
+	width: 90%;
+	height: 60px;
 	padding: 1px;
 	text-decoration: none;
 }
@@ -196,16 +196,17 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	background-color: #ff9900;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	border: 2.5px solid #d9dadb;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
 	font-family: 'Homemade Apple', cursive;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
-	width: 100%;
-	height: 46px;
+	margin-left: 5%;
+	width: 90%;
+	height: 60px;
 	padding: 1px;
 	text-decoration: none;
 }
@@ -223,25 +224,26 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	-moz-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
 	-webkit-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
 	box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
-	background-color: #717273;
+	background-color: #9a9c9d;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	border: 2.5px solid #d9dadb;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
 	font-family: 'Homemade Apple', cursive;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
-	width: 100%;
-	height: 46px;
+	margin-left: 5%;
+	width: 90%;
+	height: 60px;
 	padding: 1px;
 	text-decoration: none;
 }
 
 .button-parcourir:hover {
-	background-color: #717273;
+	background-color: #9a9c9d;
 }
 
 .button-parcourir:active {
@@ -256,16 +258,17 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	background-color: #0a71b4;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	border: 2.5px solid #d9dadb;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
 	font-family: 'Homemade Apple', cursive;
-	font-size: 20px;
+	font-size: 24px;
 	text-align: center;
-	width: 100%;
-	height: 46px;
+	margin-left: 5%;
+	width: 90%;
+	height: 60px;
 	padding: 1px;
 	text-decoration: none;
 }
@@ -275,6 +278,37 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 }
 
 .button-valider:active {
+	position: relative;
+	top: 1px;
+}
+
+.button-contact_continuer {
+	-moz-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
+	-webkit-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
+	box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
+	background-color: #663399;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 10px;
+	border: 2.5px solid #d9dadb;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 24px;
+	text-align: center;
+	margin-left: 5%;
+	width: 90%;
+	height: 60px;
+	padding: 1px;
+	text-decoration: none;
+}
+
+.button-contact_continuer:hover {
+	background-color: #663399;
+}
+
+.button-contact_continuer:active {
 	position: relative;
 	top: 1px;
 }
@@ -329,7 +363,6 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	padding: 1px;
 	text-decoration: none;
 }
-
 
 .button-non:hover {
 	background-color: #717273;
@@ -400,6 +433,15 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	top: 1px;
 }
 
+.lang-en {
+	position: center;
+	background-color: #fff;
+}
+
+.lang-fr {
+	position: center;
+	background-color: #fff;
+}
 /**************/
 /* background pages style */
 /**************/
@@ -413,94 +455,142 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	
 	87888a
 */
-
-.tilou-page{
+.tilou-page {
 	border-left-style: solid;
-	border-left-width: 15px; 
+	border-left-width: 15px;
 }
 
-#journal-page{
+#journal-page {
 	border-left-color: #ff9900;
 }
 
-#journal-page h1{
+#journal-page h1 {
 	background-color: rgba(255, 153, 0, 0.6);
 	font-family: Arial;
+	font-weight: bold;
 	font-size: 30px;
 	color: #fff;
-	padding-left: 10px;
+	padding-left: 15px;
 	font-variant: small-caps;
 }
 
-#journal-page > ion-content > div.scroll.padding {
-  padding: 0px;
-  }
-  
-#profil-page{
+#journal-page>ion-content>div.scroll.padding {
+	padding: 0px;
+}
+
+#profil-page {
 	border-left-color: #0a71b4;
 }
 
-#profil-page h1{
+#profil-page h1 {
 	background-color: rgba(10, 113, 180, 0.6);
 	font-family: Arial;
+	font-weight: bold;
 	font-size: 30px;
 	color: #fff;
-	padding-left: 10px;
+	padding-left: 15px;
 	font-variant: small-caps;
 }
 
-#profil-page > ion-content > div.scroll.padding {
-  padding: 0px;
-  }
-  
-#measurements-page{
+#profil-page>ion-content>div.scroll.padding {
+	padding: 0px;
+}
+
+#measurements-page {
 	border-left-color: #99cc00;
 }
 
-#measurements-page h1{
+#measurements-page h1 {
 	background-color: rgba(153, 204, 0, 0.6);
 	font-family: Arial;
+	font-weight: bold;
 	font-size: 30px;
 	color: #fff;
-	padding-left: 10px;
-	font-variant: small-caps;	
-	
+	padding-left: 15px;
+	font-variant: small-caps;
 }
 
-#measurements-page > ion-content > div.scroll.padding {
-  padding: 0px;
-  }
-  
-#graphic-report-page{
+#measurements-page>ion-content>div.scroll.padding {
+	padding: 0px;
+}
+
+#graphic-report-page {
 	border-left-color: #bd0926;
 }
 
-#graphic-report-page h1{
+#graphic-report-page h1 {
 	background-color: rgba(189, 9, 38, 0.6);
 	font-family: Arial;
+	font-weight: bold;
 	font-size: 30px;
 	color: #fff;
-	padding-left: 10px;
+	padding-left: 15px;
 	font-variant: small-caps;
 }
 
-#graphic-report-page > ion-content > div.scroll.padding {
-  padding: 0px;
-  }
-  
-#about-app-page{
+#graphic-report-page>ion-content>div.scroll.padding {
+	padding: 0px;
+}
+
+#about-app-page {
 	border-left-color: #663399;
 }
 
-#about-app-page h1{
+#about-app-page h1 {
 	background-color: rgba(102, 51, 153, 0.6);
 	font-family: Arial;
+	font-weight: bold;
 	font-size: 30px;
 	color: #fff;
-	padding-left: 10px;
+	padding-left: 15px;
 	font-variant: small-caps;
 }
 
-#about-app-page > ion-content > div.scroll.padding {
-  padding: 0px;
-  }
+#about-app-page>ion-content>div.scroll.padding {
+	padding: 0px;
+}
+
+/**************
+ Item Checkbox 
+**************/
+.item-checkbox {
+	padding-left: 12px;
+}
+
+.item-checkbox.active {
+	box-shadow: none;
+}
+
+.item-checkbox .checkbox {
+	position: absolute;
+	top: 50%;
+	right: 80px;
+	left: 290px;
+	z-index: 3;
+	margin-top: -21px;
+}
+
+/**************
+  Checkbox 
+**************/
+.checkbox {
+	position: relative;
+	display: inline-block;
+	padding: 7px 7px;
+	cursor: pointer;
+	border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
+	-webkit-box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
+	box-shadow: 9.4px 9.4px 9.4px -9.4px #d9dadb;
+}
+
+.checkbox input:before, .checkbox .checkbox-icon:before {
+	border-color: #ddd;
+}
+
+.checkbox input:checked:before, .checkbox input:checked+.checkbox-icon:before
+	{
+	background: #0a71b4;
+	border-color: #0a71b4;
+}

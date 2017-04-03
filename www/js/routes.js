@@ -158,12 +158,12 @@ angular.module('app.routes', [])
 		}
 	})
 
-	.state('tabsController.conctact', {
+	.state('tabsController.contact', {
 		url : '/contact',
 		views : {
 			'tab1' : {
-				templateUrl : 'templates/conctact.html',
-				controller : 'conctactCtrl'
+				templateUrl : 'templates/contact.html',
+				controller : 'contactCtrl'
 			}
 		}
 	})

@@ -82,7 +82,7 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 
 		} ])
 
-.controller('conctactCtrl',
+.controller('contactCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
 		} ])
