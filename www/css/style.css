@@ -594,3 +594,29 @@ ion-list.manual-list-fullwidth div.list>.item, .list.card.manual-card-fullwidth>
 	background: #0a71b4;
 	border-color: #0a71b4;
 }
+
+/**************
+  Journal 
+**************/
+.yearly {
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	
+}
+
+.montly {
+	border-bottom-style: solid;
+}
+
+.daily {
+	border-bottom-style: solid;	
+	border-bottom-width: 1px;
+	
+}
+
+.measure {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+

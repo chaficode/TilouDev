@@ -65,51 +65,44 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 .controller('journalCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
-			$scope.measures = [ {
+			$scope.yearly_measures = [ {
 				year : '2016',
-				month : '1',
-				day : '1',
-				w : '30.59',
-				h : '30.59',
-				comment : 'L\'enfant ...'
-			}, {
-				year : '2017',
-				month : '1',
-				day : '1',
-				w : '30.59',
-				h : '30.59',
-				comment : 'L\'enfant ...'
-			}, {
-				year : '2017',
-				month : '2',
-				day : '1',
-				w : '30.59',
-				h : '30.59',
-				comment : 'L\'enfant ...'
-			}, {
-				year : '2017',
-				month : '3',
-				day : '1',
-				w : '30.59',
-				h : '30.59',
-				comment : 'L\'enfant ...'
-			}
+				montly_measures : [ {
+					month : '1',
+					daily_measures:[
+						{
+							day:'1',
+							w:'1',
+							h:'1',
+							comment:'c1'
+						},
+						{
+							day:'2',
+							w:'2',
+							h:'2',
+							comment:'c2'
+						}]
 
-			];
+				},
+				{
+					month : '3',
+					daily_measures:[
+						{
+							day:'10',
+							w:'1',
+							h:'1',
+							comment:'c1'
+						},
+						{
+							day:'25',
+							w:'2',
+							h:'2',
+							comment:'c2'
+						}]
 
-			var getYears = function(measures) {
-				var years = [];
+				}]
 
-				for (var i = 0; i < measures.length; i++) {
-					if(!years.includes(measures[i].year)){
-						years.push(measures[i].year);
-					}
-				}
-
-				return years;
-			};
-
-			$scope.years = getYears($scope.measures);
+			} ];
 
 		} ])
 

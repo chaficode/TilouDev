@@ -6,15 +6,18 @@
     </ion-nav-title>
   <ion-content padding="true" class="has-header"><h1>journal de saisies</h1>   
       <ion-list>
-      <ion-item ng-repeat="measure in measures">
-        {{measure.year}}
-      </ion-item>
-    </ion-list>   
-
-<div ng-repeat="year in years">
-{{year}}
-
-</div>
+      <ion-item class="yearly" ng-repeat="measure in yearly_measures">
+        annee {{measure.year}}                      
+        <div ng-repeat="measure1 in measure.montly_measures" class="montly">mois {{measure1.month}}
+        <div ng-repeat="measure2 in measure1.daily_measures" class="daily">jour {{measure2.day}}
+        <div class="measure">{{measure2.w}}</div>
+        <div class="measure">{{measure2.h}}</div>
+        <div class="measure">{{measure2.comment}}</div>
+        
+        </div>
+        </div>
+      </ion-item>           
+    </ion-list>
 
   </ion-content>
 </ion-view>
