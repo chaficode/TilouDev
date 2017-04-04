@@ -4,5 +4,19 @@
     	<img src="img/avatar.png" style="width: 20%; height: 100%;">
      	<img src="img/tilou-test.png" style="width: 30%; height: 100%;">
     </ion-nav-title>
-  <ion-content padding="true" class="has-header"><h1>journal de saisies</h1></ion-content>
+  <ion-content padding="true" class="has-header"><h1>journal de saisies</h1>   
+      <ion-list>
+      <ion-item ng-repeat="measure in measures">
+        {{measure.year}}
+      </ion-item>
+    </ion-list>   
+
+<div ng-repeat="year in years">
+{{year}}
+
+</div>
+
+  </ion-content>
 </ion-view>
+
+

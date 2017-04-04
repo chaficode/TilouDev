@@ -16,16 +16,6 @@ angular.module('app.routes', [])
 
 	})
 
-	.state('tabsController.accueil', {
-		url : '/accueil',
-		views : {
-			'tab1' : {
-				templateUrl : 'templates/accueil.html',
-				controller : 'accueilCtrl'
-			}
-		}
-	})
-
 	.state('tabsController', {
 		url : '/page1',
 		templateUrl : 'templates/tabsController.html',
@@ -58,16 +48,6 @@ angular.module('app.routes', [])
 			'tab1' : {
 				templateUrl : 'templates/referidreq.html',
 				controller : 'referidreqCtrl'
-			}
-		}
-	})
-
-	.state('tabsController.login', {
-		url : '/login',
-		views : {
-			'tab1' : {
-				templateUrl : 'templates/login.html',
-				controller : 'loginCtrl'
 			}
 		}
 	})
@@ -172,7 +152,7 @@ angular.module('app.routes', [])
 		url : '/terms_of_use',
 		views : {
 			'tab1' : {
-				templateUrl : 'templates/termsOfUse.html',
+				templateUrl : 'templates/terms_of_use.html',
 				controller : 'termsOfUseCtrl'
 			}
 		}
@@ -198,22 +178,12 @@ angular.module('app.routes', [])
 		}
 	})
 
-	.state('tabsController.identification', {
-		url : '/given_id',
-		views : {
-			'tab1' : {
-				templateUrl : 'templates/identification.html',
-				controller : 'identificationCtrl'
-			}
-		}
-	})
-
-	.state('tabsController.setupProfile', {
+	.state('tabsController.setProfileRequest', {
 		url : '/setup_profile',
 		views : {
 			'tab1' : {
-				templateUrl : 'templates/setupProfile.html',
-				controller : 'setupProfileCtrl'
+				templateUrl : 'templates/set_profile_request.html',
+				controller : 'setProfileRequestCtrl'
 			}
 		}
 	})
@@ -222,7 +192,7 @@ angular.module('app.routes', [])
 		url : '/setup_preferences',
 		views : {
 			'tab1' : {
-				templateUrl : 'templates/setupPreferences.html',
+				templateUrl : 'templates/setup_preferences.html',
 				controller : 'setupPreferencesCtrl'
 			}
 		}
@@ -232,28 +202,8 @@ angular.module('app.routes', [])
 		url : '/measurement_instructions',
 		views : {
 			'tab1' : {
-				templateUrl : 'templates/measurementInstructions.html',
+				templateUrl : 'templates/measurement_instructions.html',
 				controller : 'measurementInstructionsCtrl'
-			}
-		}
-	})
-
-	.state('tabsController.surveyInvitation', {
-		url : '/survey_invitation',
-		views : {
-			'tab1' : {
-				templateUrl : 'templates/surveyInvitation.html',
-				controller : 'surveyInvitationCtrl'
-			}
-		}
-	})
-
-	.state('tabsController.survey', {
-		url : '/survey',
-		views : {
-			'tab1' : {
-				templateUrl : 'templates/survey.html',
-				controller : 'surveyCtrl'
 			}
 		}
 	})

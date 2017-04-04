@@ -37,11 +37,6 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 
 		} ])
 
-.controller('loginCtrl',
-		[ '$scope', '$stateParams', function($scope, $stateParams) {
-
-		} ])
-
 .controller('profileCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
@@ -69,6 +64,52 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 
 .controller('journalCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
+
+			$scope.measures = [ {
+				year : '2016',
+				month : '1',
+				day : '1',
+				w : '30.59',
+				h : '30.59',
+				comment : 'L\'enfant ...'
+			}, {
+				year : '2017',
+				month : '1',
+				day : '1',
+				w : '30.59',
+				h : '30.59',
+				comment : 'L\'enfant ...'
+			}, {
+				year : '2017',
+				month : '2',
+				day : '1',
+				w : '30.59',
+				h : '30.59',
+				comment : 'L\'enfant ...'
+			}, {
+				year : '2017',
+				month : '3',
+				day : '1',
+				w : '30.59',
+				h : '30.59',
+				comment : 'L\'enfant ...'
+			}
+
+			];
+
+			var getYears = function(measures) {
+				var years = [];
+
+				for (var i = 0; i < measures.length; i++) {
+					if(!years.includes(measures[i].year)){
+						years.push(measures[i].year);
+					}
+				}
+
+				return years;
+			};
+
+			$scope.years = getYears($scope.measures);
 
 		} ])
 
@@ -102,12 +143,7 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 
 		} ])
 
-.controller('identificationCtrl',
-		[ '$scope', '$stateParams', function($scope, $stateParams) {
-
-		} ])
-
-.controller('setupProfileCtrl',
+.controller('setProfileRequest',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
 		} ])
@@ -118,16 +154,6 @@ function($scope, $stateParams, $ionicSideMenuDelegate, $translate) {
 		} ])
 
 .controller('measurementInstructionsCtrl',
-		[ '$scope', '$stateParams', function($scope, $stateParams) {
-
-		} ])
-
-.controller('surveyInvitationCtrl',
-		[ '$scope', '$stateParams', function($scope, $stateParams) {
-
-		} ])
-
-.controller('surveyCtrl',
 		[ '$scope', '$stateParams', function($scope, $stateParams) {
 
 		} ])
